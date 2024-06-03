@@ -11,3 +11,6 @@ systemctl restart caddy
 # diable auto update to avoid auto rm file '/usr/bin/caddy'
 sudo apt-mark hold caddy
 # sudo apt-mark unhold caddy
+
+## caddy update log
+# cat /var/log/apt/history.log
